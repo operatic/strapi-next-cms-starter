@@ -21,6 +21,8 @@ services:
       - ./backend:/srv/app
     ports:
       - "1337:1337"
+    depends_on:
+      - mongo_db
 
   frontend:
     image: node:latest
