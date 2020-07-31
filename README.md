@@ -6,11 +6,11 @@ Open Source Strapi CMS + Next.js starter Website. Preconfigured in a docker inst
 
 In a world of building websites for clients. There always seemed to be 2 clients. Those who want to update their websites and those who don't but then end up wanting to update their websites themselves.
 
-Enter Wordpress ![Wordpress Logo](https://image.flaticon.com/icons/svg/2111/2111777.svg). The website building software that was designed for bloggers and people looking to create and maintain their own website. Over time the product became bloated and makes for some hefty, slow websites.
+Enter Wordpress. The website building software that was designed for bloggers and people looking to create and maintain their own website. Over time the product became bloated and makes for some hefty, slow websites.
 
 The goal: To create a light-weight website that includes a content manage system(CMS) that would allow users to update their own website content, create blogs, and make a graphical tool that can add, remove and update database entries.
 
-Since we have an Open Source CMS that generates the JSON objects and a separate website. I've included a dockerfile to be able to quickly spin up both instances and be pre-configured to connect to each other
+Since we have an Open Source CMS that generates the JSON objects and a separate website. I've included a dockerfile to be able to quickly spin up both instances and be pre-configured to connect to each other.
 
 ## Setup
 
@@ -27,6 +27,8 @@ make install
 ```sh
 make start
 ```
+
+Give it a couple minutes for the docker instance to download, extract and install all of the dependencies, especially for the Strapi CMS.
 
 ## Contributors
 
