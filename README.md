@@ -1,4 +1,4 @@
-# next-strapi-cms-starter
+# Strapi CMS + Next.js Website
 
 Open Source Strapi CMS + Next.js starter Website. Preconfigured in a docker instance.
 
@@ -157,5 +157,5 @@ Investigate One-Click Deploys to [Amazon AWS AMI](https://github.com/strapi/one-
 Investigate [Theming Next.js](https://www.creative-tim.com/product/nextjs-material-kit)
 
 ## Contributors
-
+- [Operatic Agency](https://operaticagency.com/)
 - [geofferiswheel](https://github.com/geofferiswheel) Andrew Konken - creator, maintainer
